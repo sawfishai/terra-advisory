@@ -62,7 +62,18 @@ body {
  */
 .masthead-brand {
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 5px; }
+
+  .masthead-brand img.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px; /* Adjust this value for spacing between the logo and text */
+}
+
+.masthead-brand h3.inline-logo {
+  display: inline-block;
+  vertical-align: middle;
+}
 
 .nav-masthead {
   text-align: center;
